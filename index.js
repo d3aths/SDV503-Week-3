@@ -35,3 +35,26 @@ console.log ("Pre increment");
  const secondWord = "world";
  console.log(firstWord + secondWord)
  console.log(`${firstWord} ${secondWord}`) //removes the necessity for adding variables with spaces, pluses and other strings
+
+ console.log(10 + 5) //adds the sum of two numbers 10 and 5
+ console.log(10 + '5') //displays the number 10 to the string 5
+ console.log('10' + 5) //displays the string 10 and the number 5
+ console.log(10 + 10 + '5') //adds the numbers 10 and 10, displays string 5
+ console.log('10' + '10') //displays two strings of 10
+
+ console.log( +true) //converts true to binary 1
+ console.log( +false) //converts false to binary 0
+
+ let xy = 10
+ console.log(xy)
+ xy += 20;
+ console.log(xy)
+ xy -= 10;
+ console.log(xy)
+ xy *= 10;
+ console.log(xy)
+ xy /= 10;
+ console.log(xy)
+ xy %= 10;
+ console.log(xy)
+ xy **= 10;
