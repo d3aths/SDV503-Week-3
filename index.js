@@ -58,3 +58,31 @@ console.log ("Pre increment");
  xy %= 10;
  console.log(xy)
  xy **= 10;
+
+
+ //if () {}
+
+ let num = 10
+ let numTwo = 10
+
+ if (num == numTwo) {
+     console.log("numbers are equal")
+ };
+
+ console.log(1 == "1") //this is displaying because theyre equal, no matter of the data type
+ console.log(1 === "1")  //this is displaying because a string is not the same as a number data type
+ console.log(" ") //each calculation below is displaying because of the same reasons as i just commented
+
+ console.log(1 == true) //in binary 1 means true so this shows 1 is equal to true
+ console.log (1 === true)
+ console.log(" ")
+
+ console.log(0 == false) //in binary 0 means false so this shows 0 is equal to false
+ console.log(0 === false)
+
+ console.log(null == undefined)
+ console.log(null === undefined)
+
+ console.log(null + 1) //null equals 0 so zero plus one = 1
+ console.log(undefined > 0) //you cant do any comparisons with undefined, it only equals null
+ console.log(undefined + 1) //you also cant do maths with undefined so it returns not a number
